@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Cadastro de email na landing page para recebimento de novidades e promoções." />
+    <meta name="author" content="Cristiano Vieira de Sa Caminha" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/kisspng-ecotourism-essay-sustainability-conservation-earth-5a9d16e3ad3050.6371464115202444517094.png" />
+    <title>Aventura</title>
+
+    <!-- font cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- function to store value in localstorage -->
+    <script type="text/javascript.js">
+
+        function store(){
+        var inputEmail= document.getElementById("email");
+        localStorage.setItem("email", inputEmail.value);
+        
+        }
+    </script>
+
+
+  </head>
+  <body>
+      
+    <!-- header section starts -->
+    <header>
+      <img src="images/kisspng-ecotourism-travel-package-tour-tour-operator-5afb6786b12e99.6634955315264254787257.png" id="img_circular" />
+
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar" class="fas fa-bars"></label>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#products">Lugares</a>
+        <a href="#footer">Contato</a>
+      </nav>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3><span>Receba dicas de lugares incríveis!</span></h3>
+        <h4>Explore trilhas, monhantas e cachoeiras!</h4>
+        <p>Cadastre-se agora!</p>
+        <form action="">
+        <input type="email" id="email" placeholder="Digite seu e-mail" />
+        </form>
+         <a href="#" class="btn" onclick="store()">Quero me cadastrar</a>
+        
+      </div>
+
+      <div class="image">
+        <img src="images/kisspng-ecotourism-essay-sustainability-conservation-earth-5a9d16e3ad3050.6371464115202444517094.png" alt="home" />
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- products section starts -->
+    <section class="products" id="products">
+      <h1 class="heading">lugares</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/escalada.jpg" alt="escalada" />
+          <h3>Escalada</h3>
+          <p>
+            Nosso maior princípio é o de conhecer e indicar os 
+            melhores lugares para que sua escalada seja o mais segura e divertida possível.
+          </p>
+         
+         <a href="https://pt.wikipedia.org/wiki/Escalada" class="btn">Saiba mais</a>
+          
+        </div>
+
+        <div class="box">
+          <img src="images/ciclismo.jpg" alt="ciclismo" />
+          <h3>Ciclismo</h3>
+          <p>
+            Ciclismo é uma atividade que envolve a repetição de um movimento e que usa como meio de locomoção a bicicleta. 
+            O ciclismo pode ser competitivo, recreativo e também praticado como forma de atividade física, 
+            tanto outdoor como indoor (como as aulas de spinning).
+          </p>
+          <a href="https://pt.wikipedia.org/wiki/Ciclismo" class="btn">Saiba mais</a>
+        </div>
+
+        <div class="box">
+          <img src="images/caminhada.jpg" alt="caminhada" />
+          <h3>Caminhada</h3>
+          <p>
+            Uma caminhada é uma actividade, geralmente desportiva, não competitiva, praticada essencialmente em ambientes
+            naturais, obtendo os seus praticantes os benefícios inerentes à prática de actividades de ar livre, 
+            funcionando ainda como uma forma de escapar ao stress e sedentarismo do dia a dia vivido nas cidades.
+          </p>
+          <a href="https://pt.wikipedia.org/wiki/Caminhada" class="btn">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+    <!-- products section ends -->
+
+    <!-- newsletter section starts -->
+    <div class="newsletter">
+      <h3>Cadastre-se para receber nossas dicas!</h3>
+      <p>
+        Receba em seu e-mail um e-book com lugares incríveis.</br> Ganhe descontos em hotéis, passagens 
+        e muitos mais!!
+      </p>
+      <form action="">
+        <!--<input type="email" id="email" placeholder="Digite seu e-mail" />-->
+        <input type="submit"  value="Inscreva-se" onclick="location.href='#home'"/>
+      </form>
+    </div>
+    <!-- newsletter section ends -->
+
+    <!-- footer section starts -->
+    <div class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Sobre</h3>
+          <p>
+            Tudo o que precisa para te deixar preparado para enfrentar as maiores aventuras de sua vida.
+            Pratique montanhismo, ciclismo e caminhadas nos melhores lugares indicados por nós. Aproveite
+            e ganhe descontos em hospedagens!
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Links</h3>
+          <a href="#home">Home</a>
+          <a href="#products">Lugares</a>
+          <a href="#footer">Sobre</a>
+        </div>
+
+        <div class="box">
+          <h3>Redes Sociais</h3>
+          <a href="" target="_blank">Instagram</a>
+          <a href="" target="_blank">Facebook</a>
+          <a href="" target="_blank">LinkedIn</a>
+        </div>
+
+        <div class="box">
+          <h3>Contato</h3>
+          <div class="info">
+            <i class="fas fa-phone"></i>
+            <p>+55 19 98810-9938</p>
+          </div>
+          <div class="info">
+            <i class="fas fa-envelope"></i>
+            <p>regianehinacio@gmail.com</p>
+          </div>
+          <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Hortolândia, Brasil</p>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">&copy; Copyright @2021  Dev  <a href="" target="_blank">Regiane Inácio</a> </h1>
+    </div>
+    <!-- footer section ends -->
+  </body>
+</html>
