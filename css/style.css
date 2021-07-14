@@ -249,10 +249,12 @@ header label {
 }
 
 .newsletter p {
-  color: #fff;
-  font-size: 1.6rem;
-  margin: 2rem auto;
-  width: 70rem;
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 70rem;
+
 }
 
 .newsletter form {
